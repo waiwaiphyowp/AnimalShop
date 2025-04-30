@@ -93,3 +93,37 @@ nav {
 }
 
 /* navbar end */
+
+.banner {
+  height: calc(100vh);
+  background: url(../img/banner.jpg) center/cover no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.banner * {
+  color: var(--secondary-color);
+}
+
+.banner__text_group {
+  width: 32%;
+  padding: 10px 10px 20px 10px;
+  border-radius: 20px;
+  text-align: center;
+  /* background: red; */
+  backdrop-filter: blur(40px);
+  margin-top: 80px;
+}
+
+.btn_group {
+  margin-top: 20px;
+}
+
+.btn_group * {
+  color: var(--white-color);
+}
+
+.bg-brown {
+  background: var(--primary-color);
+}
