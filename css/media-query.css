@@ -79,4 +79,13 @@ section {
   height: 300px;
 }
 
+.test-left__bottom img {
+  width: 100%;
+}
+
+.test-left__bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 }
