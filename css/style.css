@@ -6,6 +6,7 @@
   text-decoration: none;
   font-size: 1rem;
   color: #d39c92;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -298,7 +299,6 @@ button {
   padding: 20px 0;
   /* width: 100%; */
 }
-
 
 .test-left__bottom {
   display: flex;
