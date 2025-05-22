@@ -67,4 +67,16 @@ section {
   gap: 20px;
 }
 
+.details-container .details {
+  flex-direction: column;
+}
+
+.details-container .info, .details-container .price {
+  padding: 30px;
+}
+
+.details-container img {
+  height: 300px;
+}
+
 }
