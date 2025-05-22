@@ -279,3 +279,72 @@ button {
 .contact>div:hover * {
   color: #341b03;
 }
+
+.testimolial {
+  width: 100%;
+  min-height: 50vh;
+  background: rgb(231, 228, 196);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.test-left {
+  flex: 2;
+  padding: 30px;
+  
+}
+
+.test-left__top {
+  padding: 20px 0;
+  /* width: 100%; */
+}
+
+
+.test-left__bottom {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.test-left__bottom>div {
+  padding: 20px 60px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.test-right {
+  flex: 1;
+  padding: 30px;
+  background: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.test-right__info {
+  display: flex;
+}
+
+.test-right__info>div {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+}
+
+.test-right>div {
+  width: 100%;
+  text-align: center;
+}
+
+.info-flex {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
+}
